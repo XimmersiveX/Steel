@@ -20,7 +20,7 @@ p {
 }
 
 .parallax-container {
-  min-height: 500px;
+  min-height: 380px;
   line-height: 0;
   height: auto;
   color: rgba(255,255,255,.9);
@@ -46,4 +46,8 @@ p {
 
 footer.page-footer {
   margin: 0;
+}
+
+.logo {
+  height: 64px;
 }
