@@ -10,37 +10,49 @@
   <!-- CSS  -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" integrity="sha512-UJfAaOlIRtdR+0P6C3KUoTDAxVTuy3lnSXLyLKlHYJlcSU8Juge/mjeaxDNMlw9LgeIotgz5FP8eUQPhX1q10A==" crossorigin="anonymous" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.css" integrity="sha512-t38vG/f94E72wz6pCsuuhcOPJlHKwPy+PY+n1+tJFzdte3hsIgYE7iEpgg/StngunGszVMrRfvwZinrza0vMTA==" crossorigin="anonymous" />
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 </head>
 <body>
 
-  <ul id="dropdown1" class="dropdown-content">
-    <li><a href="#!">one</a></li>
-    <li><a href="#!">two</a></li>
-    <li class="divider"></li>
-    <li><a href="#!">three</a></li>
-  </ul>
+  <!-- Main Navigation -->
+  <div class="navbar-fixed">
   <nav class="white" role="navigation">
     <div class="nav-wrapper container">
       <a id="logo-container" href="#" class="brand-logo"><img class="logo" src="assets/Steel Containers.svg" alt=""></a>
       <ul class="right hide-on-med-and-down">
-        <li><a href="#">Navbar Link</a></li>
-        <!-- Dropdown Trigger -->
-      <li><a class="dropdown-trigger" href="#!" data-target="dropdown1">Dropdown<i class="material-icons right">arrow_drop_down</i></a></li>
-      </ul>
-
-      <ul id="nav-mobile" class="sidenav">
-        <li><a href="#">Navbar Link</a></li>
+        <li><a href="#home"><i class="material-icons left">home</i>Home</a></li>
+        <li><a href="#build"><i class="material-icons left">build</i>Build Quality</a></li>
+        <li><a href="#buy"><i class="material-icons left">view_module</i>Container Selection</a></li>
+        <li><a href="#rent"><i class="material-icons left">border_vertical</i>Rentals</a></li>
       </ul>
       <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
     </div>
   </nav>
+</div>
+
+  <!-- Side Navigation -->
+  <ul id="nav-mobile" class="sidenav">
+    <li>
+      <div class="user-view">
+        <div class="background">
+          <img src="images/office.jpg">
+        </div>
+        <a href="#user"><img class="circle" src="images/yuna.jpg"></a>
+        <a href="#name"><span class="white-text name">John Doe</span></a>
+        <a href="#email"><span class="white-text email">jdandturk@gmail.com</span></a>
+      </div>
+    </li>
+    <li><a class="waves-effect sidenav-close" href="#home"><i class="material-icons">home</i>Home</a></li>
+    <li><a class="waves-effect sidenav-close" href="#build"><i class="material-icons">build</i>Build Quality</a></li>
+    <li><a class="waves-effect sidenav-close" href="#buy"><i class="material-icons">view_module</i>Container Selection</a></li>
+    <li><a class="waves-effect sidenav-close" href="#rent"><i class="material-icons">border_vertical</i>Rentals</a></li>
+  </ul>
+  
 
   <!-- Intro -->
   <!-- Parallax 1 -->
   <div id="index-banner" class="parallax-container">
-    <div class="section no-pad-bot">
+    <div id="home" class="section scrollspy no-pad-bot">
       <div class="container">
         <br><br>
         <h1 class="header center">#1 Largest Supplier of Containers in the Central Texas Area (DFW)</h1>
@@ -155,7 +167,7 @@
 
     <!-- Parallax 2 -->
     <div class="parallax-container valign-wrapper">
-      <div class="section no-pad-bot">
+      <div id="build" class="section no-pad-bot scrollspy">
         <div class="container">
           <br><br>
           <h1 class="header">Built and Designed to Withstand Hurricane Winds</h1>
@@ -249,7 +261,7 @@
 
   <!-- Parallax 3 -->
   <div class="parallax-container valign-wrapper">
-    <div class="section no-pad-bot">
+    <div id="buy" class="section scrollspy no-pad-bot">
       <div class="container">
         <br><br>
         <h1 class="header center">New and Used Containers for Sale</h1>
@@ -348,7 +360,7 @@
 
   <!-- Parallax 4 -->
   <div class="parallax-container valign-wrapper">
-    <div class="section no-pad-bot">
+    <div id="rent" class="section scrollspy no-pad-bot">
       <div class="container">
         <br><br>
         <h1 class="header center">Container Rental Program</h1>
@@ -519,7 +531,6 @@
   <!--  Scripts-->
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js" integrity="sha512-NiWqa2rceHnN3Z5j6mSAvbwwg3tiwVNxiAQaaSMSXnRRDh5C2mk/+sKQRw8qjV1vN4nf8iK2a0b048PnHbyx+Q==" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.js" integrity="sha512-m2PhLxj2N91eYrIGU2cmIu2d0SkaE4A14bCjVb9zykvp6WtsdriFCiXQ/8Hdj0kssUB/Nz0dMBcoLsJkSCto0Q==" crossorigin="anonymous"></script>
   <script src="js/init.js"></script>
 
   </body>
