@@ -11,6 +11,10 @@ nav .brand-logo {
   color: rgb(45, 79, 172);
 }
 
+.page-footer {
+  background-color: rgb(45, 79, 172);
+}
+
 p {
   line-height: 2rem;
 }
